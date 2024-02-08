@@ -9,7 +9,7 @@ import asyncio
 import re
 
 from aiogram import Bot, Dispatcher, executor, types
-from aiogram import __version__ as aiogram_version
+from aiogram import 2.16 as aiogram_version
 print(f"Using aiogram version: {aiogram_version}")
 from aiogram.utils.exceptions import Throttled
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
